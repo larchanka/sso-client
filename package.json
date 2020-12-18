@@ -1,0 +1,23 @@
+{
+  "name": "sso-consumerone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SSO_URL=https://5fdd12b4ff514e000809dbb4--infallible-kepler-2e9861.netlify.app SSO_APP_TOKEN=sNaEC0un5AUC2A7nBiSy2AVEEtiJiJPQ nodemon index.js"
+  },
+  "author": "Ankur Anand",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^2.7.4",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^2.0.6"
+  }
+}
